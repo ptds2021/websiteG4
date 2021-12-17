@@ -1,5 +1,4 @@
 ---
-date:  '`r format(Sys.time(), "%d/%m/%Y")`'
 title: About
 ---
 

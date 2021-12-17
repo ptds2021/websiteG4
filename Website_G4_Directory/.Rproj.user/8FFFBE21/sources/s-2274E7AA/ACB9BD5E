@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2005504194",
+    "hash" : "0",
     "id" : "ACB9BD5E",
     "lastKnownWriteTime" : 1639747305,
     "last_content_update" : 1639747305,
     "path" : "~/GitHub/websiteG4/Website_G4_Directory/themes/hugo-lithium/theme.toml",
     "project_path" : "themes/hugo-lithium/theme.toml",
     "properties" : {
+        "cursorPosition" : "16,0",
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [
