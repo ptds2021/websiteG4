@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1639755920595.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2005454298",
+    "id" : "4BAC1EE9",
+    "lastKnownWriteTime" : 1639747305,
+    "last_content_update" : 1639747305,
+    "path" : "~/GitHub/websiteG4/Website_G4_Directory/content/post/2020-12-01-r-rmarkdown/index.Rmd",
+    "project_path" : "content/post/2020-12-01-r-rmarkdown/index.Rmd",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
