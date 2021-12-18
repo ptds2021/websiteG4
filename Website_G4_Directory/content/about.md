@@ -23,21 +23,28 @@ The website is made of two separated sections:
 We are 5 master students from HEC Lausanne, attending the last year of the master in management, stream Business Analytics
 
 
-*Francesco Darino*
-<img src="/./about_files/francesco.jpeg" alt="" width="700px" height="500px"/>
 
 
-*Özgür Aydemir*
-<img src="/./about_files/Ozgur.jpeg" alt="" width="700px" height="600px"/>
-
-
-*Louis Del Perugia*
-<img src="/./about_files/Louis.png" alt="" width="700px" height="500px"/>
 
 
 *Sophie La Gennusa*
 <img src="/./about_files/sophie.jpeg" alt="" width="700px" height="500px"/>
 
+*Francesco Darino*
+<img src="/./about_files/francesco.jpeg" alt="" width="700px" height="500px"/>
+
+*Louis Del Perugia*
+<img src="/./about_files/Louis.png" alt="" width="700px" height="500px"/>
+
+*Özgür Aydemir*
+<img src="/./about_files/Ozgur.jpeg" alt="" width="700px" height="600px"/>
 
 *Daniel Szenes*
 <img src="/./about_files/Daniel.jpeg" alt="" width="700px" height="500px"/>
+
+
+---
+---
+---
+---
+---

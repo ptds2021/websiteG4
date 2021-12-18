@@ -5,9 +5,9 @@
             <a href="{{ .Site.RSSLink | relURL }}" type="application/rss+xml" target="_blank">RSS feed</a>
           </li>
           -->
-          <h1> <strong> Welcome to NastyR website </strong> </h1> 
+          <h1> <strong> Welcome to pkgproject </strong> </h1> 
           <br>
-          <img src = "{{ "images/logo_nasty.png" | relURL }}" alt = "logo" width = "700" height = "600">
+          <img src = "{{ "images/logo_nasty.png" | relURL }}" alt = "logo" width = "400" height = "400">
           
           <br>
           <!-- remove

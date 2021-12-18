@@ -1,8 +1,9 @@
 ---
-date: "2021-12-17T13:09:13-06:00"
-title: PkgProject
+title: 'Package'
+date: '2021-12-18'
 ---
 
+---
 "PkgProject" package creates statistical tables and graphs in order to analyze company data. To be more precise, it provide a quality control analysis. 
 
 "PkgProject"" is made of 3 functions/functionalities:
@@ -27,3 +28,8 @@ title: PkgProject
 
 
 
+---
+---
+---
+---
+---
