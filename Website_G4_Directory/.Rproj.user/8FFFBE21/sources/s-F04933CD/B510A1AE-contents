@@ -18,12 +18,6 @@ menu:
       url: /about/
     - name: Github
       url: https://github.com/ptds2021/websiteG4/tree/main/Website_G4_Directory
-permalinks:
-  /: /:year/:month/:day/:filename/
-menu:
-  main:
-    - name: Shiny App
-      url: /index/
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
