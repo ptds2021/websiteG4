@@ -19,7 +19,7 @@ menu:
     - name: Github
       url: https://github.com/ptds2021/websiteG4/tree/main/Website_G4_Directory
 permalinks:
-  /: /:year/:month/:filename/
+  /: /:year/:month/:day/:filename/
 menu:
   main:
     - name: Shiny App
