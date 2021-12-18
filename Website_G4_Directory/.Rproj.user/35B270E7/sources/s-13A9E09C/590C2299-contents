@@ -72,8 +72,7 @@ This graph helps to monitor the capability of a particular parameter in the prod
 
 *"run_demo()"*
 
-Runs an interactive Shiny app that allows the user
-adjust the inputs of the estimate_area() function.
+Run a demo of the packages with all the functions
 
 ---
 ---
