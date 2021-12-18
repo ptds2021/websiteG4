@@ -15,6 +15,8 @@ It mainly consist of 3 parts:
 
 ---
 
+### INPUT TAB
+
 The very first part is the *"Input"* , we observe our data-frame with our specific columns *"Date"* , *"Measure 1 "*,*"Measure 2"* ,*"Measure 3"* ,*"Measure 4"* ,*"Measure 5"* ,*"Measure 6"* ,*"Operator"* ,*"Process.Sample"* ,*"Size"* ,*"Target.Value"* ,*"Tare"*.
 
 These variables are of main of interest. We designed our Shiny app in a way that it allows user to select and edit the data input type and then recording it with the *"Submit"* button that displays the given information in the data-table shown below.
@@ -29,6 +31,8 @@ At the end, a summary table giving statistics is provided.
 
 ---
 
+### VISUALIZATIONS
+
 The second window is called: *"visualizations"*. It has been done by according to the *"Request"* value. 
 
 This section is dedicated to visualizing process control statistics.
@@ -38,6 +42,8 @@ An *Xbar chart* is provided the user to check whether the process is within the 
 a *statistical table*  shows some values like: Process Median, Process Cible, Process Mean Deviation, Upper Control Limit, Lower Control Limit , Number Beyond Limits, Out of Control (%). 
 
 ---
+
+### APP INFO
 
 The third window is called *"App Info"* providing general information about the purpose of the app and to who it is dedicated. 
   
