@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1639823983647.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2016284112",
+    "id" : "B510A1AE",
+    "lastKnownWriteTime" : 1639824537,
+    "last_content_update" : 1639824537486,
+    "path" : "~/GitHub/websiteG4/Website_G4_Directory/config.yaml",
+    "project_path" : "config.yaml",
+    "properties" : {
+        "cursorPosition" : "21,27",
+        "scrollLine" : "8"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "yaml"
+}

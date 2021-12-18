@@ -16,8 +16,6 @@ The website is made of two separated sections:
 2. Second part gives a detailed explanation about our shiny-app built upon the package, with the interface that allow the user to discover much more functionalities.
 
 
-
-
 [The link of our videos](https://www.youtube.com/watch?v=PZ-3GoqHC-s)
   
 ### About the creators:
