@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1639819267977.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AE337249",
+    "lastKnownWriteTime" : 1633896921,
+    "last_content_update" : 1633896921,
+    "path" : "~/GitHub/HW1--G4/HW1 -- G4/HW1.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "30,25",
+        "scrollLine" : "18"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

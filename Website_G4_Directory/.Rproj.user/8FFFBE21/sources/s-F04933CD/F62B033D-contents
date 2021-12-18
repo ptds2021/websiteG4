@@ -1,6 +1,5 @@
 ---
 title: About
-featured_image: /about_files/logo_nasty.png
 ---
 
 ### About the website:
@@ -14,9 +13,6 @@ The website is made of two separated sections:
 1. First part aims to give a detailed information about the package created to be exploited for production control purpose.
 
 2. Second part gives a detailed explanation about our shiny-app built upon the package, with the interface that allow the user to discover much more functionalities.
-
-
-[![The link of our videos](https://www.youtube.com/watch?v=PZ-3GoqHC-s/logo_nasty.png)](https://www.youtube.com/watch?v=PZ-3GoqHC-s)
 
   
 ### About the creators:

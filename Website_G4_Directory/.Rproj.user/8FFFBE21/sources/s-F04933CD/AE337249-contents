@@ -1,0 +1,310 @@
+---
+title: "Homework 1"
+author: "Sophie La Gennusa, Özgür Aydemir, Francesco Darino, Louis del Perugia, Daniel Szenes"
+date: '`r format(Sys.time(), "%d/%m/%Y")`'
+
+output: 
+  html_document:
+    theme: cerulean
+    highlight: tango 
+    toc: true
+    toc_float: true 
+    number_sections: true
+bibliography: bibliography.bib
+    
+
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source(here::here("setup.R"))
+```
+
+# Introduction
+
+
+[Group 4 Introduction - VIDEO](https://youtu.be/PZ-3GoqHC-s)
+
+
+The structure of this homework is as follow:
+
+* A presentation of the team
+* Some calculations and equations
+* Including some text in green
+* Including More info” button with hide/unhide functionality.
+* Including a “color box”” with some text.
+
+# Group Members
+
+## Sophie La Gennusa
+My name is Sophie and I am 23 years old. I did my bachelor degree here in HEC Lausanne. 
+I love to hike, dive, swim and sports in general, even I wish I have more time for it. Reading is one of my other hobby, especially in the summer time on a beach. I do also like to travel (this is why I don't like corona) and I am waiting for the end of the pandemic. A fun fact about myself is that my phobia is that I'm scared of snails.
+
+
+![Sophie on the top of the Mount Sinai](sophie.jpeg)
+
+```{r}
+classes <-
+  c("Programming",
+    "Algorithms for BI and digital market",
+    "Unethical Decision Making",
+    "Digital Strategies",
+    "Text Mining")
+
+day<-c("Monday", "Tuesday", "Wednesday", "Wednesday", "Thursday")
+
+time <- c("09:00", "14:15", "08:00", "14:15", "8:00")
+
+classes.table <- data.frame(cbind(classes, day,time))
+
+kbl(classes.table)%>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+My favorite quote is: 
+
+> “The darkest hour of the night comes just before the dawn.”
+
+@Paulo
+
+
+
+## Özgür Aydemir
+
+![Casual photo](Ozgur.jpeg)
+
+
+My name is Özgür Aydemir. I am from Turkey, I stayed 6 years in France in Lyon to do my studies. I worked in a bank as a Back office employee until I got accepted from HEC Lausanne. As a hobby, I am practising latin dances "Salsa" for four years and I am practising sports like swimming and cross-fit. 
+
+My favorite quote is:
+
+> "DEFEAT IS A STATE OF MIND, NO ONE IS EVER DEFEATED UNTIL DEFEAT HAS BEEN ACCEPTED AS A REALITY."
+
+@Lee
+
+
+```{r}
+classes <-
+  c("Programming",
+    "Supply Chain Management",
+    "Datascience for Marketing",
+    "Production Control",
+    "Risk Analytics",
+    "Data Analytics Project")
+
+day <- c("Monday", "Monday", "Thursday","Thursday  ; first 7 weeks","Thursday  ; last 7 weeks", "Friday")
+
+time <- c("09:00", "14:15", "08:30", "14:15","14:15","08:30")
+
+classes.table <- data.frame(cbind(classes, day, time))
+
+kbl(classes.table)%>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+
+```
+
+
+## Francesco Darino
+
+I am Francesco Darino. I am an italian 22 years-old guy, living in Lausanne for the master in management at UNIL.
+The first hobby that comes to mind is definitely cooking. I love to try out traditional recipes but also exploring ethnic flavours. Cooking for me is a creative act, moreover it relax and stimulate my mind. After that, I have an interest and passion for reading books on personal growth and psychology since high school, this passion always gives me useful knowledge and a positive state of mind. Finally, I practice calisthenics. 
+
+
+On of my favorite quotes is:
+
+> "HAPPINESS COMES FROM GROWTH, NOT COMFORT" 
+
+@Chandler
+
+![Lake on the mountain](francesco.jpeg)
+
+```{r}
+classes <-
+  c("Programming",
+    "Managerial decision making",
+    "Fraud analytics",
+    "Text mining",
+    "Risk Analytics",
+    "Data Analytics Project")
+
+day <- c("Monday", "Tuesday", "wednesday ; last 7 weeks", "Thursday" , "Thursday ; last 7 weeks" ,  "Friday")
+
+time <- c("08:30", "8:30", "08:30", "8:30","14:15","08:30")
+
+classes.table <- data.frame(cbind(classes, day, time))
+
+kbl(classes.table)%>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+
+## Louis del Perugia
+
+![I have absolutly no idea what to say in this description](4625ad37-aa48-45bf-92e6-08c30102b4ab.jpg)
+
+
+I spend most of my free time producing music and listening vinyl. I consider my sound engineer part-time job as my principal hobby. I also like sport (boxing, climbing and volleyball), analog photography, to travel and Italian cooking.
+
+> "Fluctuat Nec Mergitur"
+
+@Paris
+
+
+```{r}
+classes <-
+  c("Programming",
+    "Fraud Analytics",
+    "Text Mining",
+    "Data Analytics Project")
+
+day <- c("Monday", "Wednesday","Thursday", "Friday")
+
+time <- c("09:00", "08:00", "08:00", "08:00")
+
+classes.table <- data.frame(cbind(classes, day, time))
+
+kbl(classes.table)%>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+
+## Daniel Szenes
+
+![Profile photo](Daniel.jpeg)
+
+My name is Daniel, I am 26 years old and I did my bachelor here in HEC Lausanne.
+I like sports, such as swimming and hiking. With the travel restrictions that we had during COVID, which limited travel abroad, I had a lot of opportunities to internal tourism and find beautiful places to go in Switzerland. An insteresting fact about me is that I have lived in 3 countries (USA, Hungary, Switzerland) and speak 4 languages fluently (French, English, Hungarian, Russian).
+
+> "Well, nobody's perfect." 
+
+@Wilder
+
+
+```{r}
+classes <-
+  c("Programming tools for Data Science",
+    "Fraud Process Analytics",
+    "Production control",
+    "Risk Analytics",
+    "Project in Data Analytics",
+    "Startegy in Digital in Markets" )
+
+day <- c("Monday", "Wednesday","Thursday, first 7 weeks", "Thursday, last 7 weeks", "Friday", "Friday")
+
+time <- c("09:00", "08:30", "14:15", "14:15", "08:30", "14:15")
+
+classes.table <- data.frame(cbind(classes, day, time))
+
+kbl(classes.table)%>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+# R Markdown Syntax
+
+## cache = T
+
+
+```{r computeA, cache = TRUE}
+a = 3
+```
+
+```{r, cache = TRUE}
+(d = 2*a)
+```
+
+
+In this exemple, changing the value of a will mislead the results for the second chunk. When $a = 3$ , we expect the result of the second chunk be $6$ and the same for the third chunk. When we change the value of a from $3$ to $4$ and knit again, the result of the second chunk will not be updated as the $cache = TRUE$ will store the old value to into it. The main idea is that $cache = TRUE$ saves the computational time. Sometimes , we may run several times a bunch of matrix multiplication which takes a lot of time. So we can save some time with this option.
+
+
+## 300 random samples simulation
+
+
+```{r}
+
+
+set.seed(1996)
+x <- runif(n = 300, min = -1, max = 1)
+
+(mean.oursample <- mean(x))
+(med.oursample <- median(x))
+(var.oursample <- var(x))
+```
+
+Here we find different mean value than the one we expected to find by following the theory. As we have a continous uniform distribution meaning that every single continous value within our range $[-1,1]$ have equally likely to occur. So if we were to plot this graph, we would have a straight horizontal line for the range $-1$ and $1$ that corresponds to the constant probability to occur which is $0.5$. by following the probability density function (pdf) $f(x)= \begin{cases} \frac{1}{b-a}\, ,& a \le x \le b \\0 ,& otherwise \end{cases}$ 
+
+The mean of the function given the two parameters "a" and "b" would be given by the formula $\frac{a+b}{2}$. So, replacing the numbers by $-1$ and $1$ would result $0$.$dunif$ gives the uniform density function whereas $runif$ generates $n$ random observations from a uniform distribution. However, the mean is equal to $-0.02$ which is very close to $0$. If we increase the number of observations from $300$ to $1000$, we would be closer to the $0$. 
+
+The variance of uniform distribution is computed as $\frac{(b-a)^2}{12}$. With this formula , we find the variance to be $0.333$ while the output of the R is equal to $0.32$ meaning that our observation is big enough to be consistent with the variance computed.
+
+## Graph of Density
+
+```{r}
+
+## A graph of density estimation
+
+d <- density(x)
+plot(d)
+
+```
+In this graph, the $density()$ function consider "Gaussian" as default distribution for its kernel. So, it actually uses Kernel density estimates using "Gaussian" as its type. The process is that we compute the Gaussian density for every single data point and we sum all to obtain a one single density curve. As the PDF of the boundaries will be added to the Kernel density function, it is obvious that the density plot will exceed the boundary points which are $[-1,1]$. If we want to control this, we can either include $from$ and $to$ into our $density()$ function.
+
+
+
+## Including the first equation
+
+
+$$
+  (P^tf)(x)=f_b(x)+ \frac{\sigma^2t}{2|D|d}\int_{\partial D}\frac{\partial f}{\partial n}d\hat{y} + \sum c_{m}^0 \exp(-\frac{\sigma ^2 \tilde{\kappa}_m t}{2})\tilde{s}_{m}(x)+f_{h}(x)
+$$
+
+## Including the second equation: 
+
+
+$$
+\hat{f}(\xi) = \frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}f(x)e^{-ix\xi}dx
+$$
+
+
+## Text in green:
+
+<span style="color:green;"> "The degree of civilization in a society can be judged by entering its prison" </span>
+
+
+
+## Color Box: 
+
+<div class="alert alert-info">
+  <strong>HELLOO !</strong> This is a color box with some text.We also included some "alert" info in the class to make it more original. 
+</div>
+
+
+
+    
+## More info button:
+
+<input type=button class=hideshow></input>
+
+<script>
+$( "input.hideshow" ).each( function ( index, button ) {
+  button.value = 'Hide Output';
+  $( button ).click( function () {
+    var target = this.nextSibling ? this : this.parentNode;
+    target = target.nextSibling.nextSibling.nextSibling.nextSibling;
+    if ( target.style.display == 'block' || target.style.display == '' ) {
+      target.style.display = 'none';
+      this.value = 'Show Output';
+    } else {
+      target.style.display = 'block';
+      this.value = 'Hide Output';
+    }
+  } );
+} );
+</script>
+
+
+
+This text is written here to demonstrate the functionnality of including the box with a "HIDE/UNHIDE" button. 
+
+# References
+
+<div id="refs"></div>
+
