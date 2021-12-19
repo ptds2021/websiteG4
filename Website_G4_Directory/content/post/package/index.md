@@ -5,7 +5,7 @@ date: '2021-12-18'
 
 ---
 
-"NastyR" package creates tools to analyze industrial data. Its aim is to provide support for industrial quality control analysis. 
+"NSPC" package creates tools to analyze industrial data. Its aim is to provide support for industrial quality control analysis. 
 
 It is made of 4 functions/functionalities:
 
