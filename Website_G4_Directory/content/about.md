@@ -11,19 +11,20 @@ This website is created for the purpose of a project in the course of "Programmi
 
 The website is made of two separated sections: 
 
-1. First part aims to give a detailed information about the package created to be exploited for production control purpose.
+1. Detailed explaination about the package created to be exploited for production control purpose.
 
-2. Second part gives a detailed explanation about our shiny-app built upon the package, with the interface that allow the user to discover much more functionalities.
+2. Detailed explanation about the shiny-app built upon the package, with the interface that allow the user to discover several functionalities.
 
 
-[The link of our videos](https://www.youtube.com/watch?v=PZ-3GoqHC-s)
+
+  
   
 ### About the creators:
 
 We are 5 master students from HEC Lausanne, attending the last year of the master in management, stream Business Analytics
 
 
-
+[Who we are](https://www.youtube.com/watch?v=PZ-3GoqHC-s)
 
 
 
@@ -37,7 +38,7 @@ We are 5 master students from HEC Lausanne, attending the last year of the maste
 <img src="/./about_files/Louis.png" alt="" width="700px" height="500px"/>
 
 *Özgür Aydemir*
-<img src="/./about_files/Ozgur.jpeg" alt="" width="400px" height="300px"/>
+<img src="/./about_files/Ozgur_new2.jpeg" alt="" width="700px" height="500px"/>
 
 *Daniel Szenes*
 <img src="/./about_files/Daniel.jpeg" alt="" width="700px" height="500px"/>

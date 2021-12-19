@@ -5,27 +5,37 @@ date: '2021-12-18'
 
 ---
 
-"NastyR" package creates statistical tables and graphs in order to analyze company data. To be more precise, it provide a quality control analysis. 
+"NastyR" package creates tools to analyze industrial data. Its aim is to provide support for industrial quality control analysis. 
 
-"NastyR" is made of 4 functions/functionalities:
+It is made of 4 functions/functionalities:
 
-* summary_stat(dataset, request number, A2)
-* R_bar_chart(dataset, request number, A2)
-* request_CL(dataset, request number, A2, d2)
-* run_demo()
+* #### summary_stat(dataset, request number, A2)
+* #### R_bar_chart(dataset, request number, A2)
+* #### request_CL(dataset, request number, A2, d2)
+* #### run_demo()
+
+To install the package on R studio type the following codes:
+
+1. remotes::install_github("ptds2021/project--G4",force = TRUE)
+2. library(pkgproject)
+
+click the link below to access explanatory video about the package:
+
+[Package video link](https://youtu.be/iXu9loSoQEQ)
+  
 
 ---
 ### LEGENDA
 
 *dataset*: The dataset for the analysis (data.frame).
 
-For this function to work, your dataset must have :
+dataset must have :
 
-- `Request` column that has a number that identifies the request,
-columns starting with `Measure` that has the values for you measurements.
+- `Request` column: identify the request number.
+- `Measure` column:  has numeric values for you measurements.
 
-- `Process Sample` column that records the number of the sample per request
-- `Target value` column that gives us the value on which we base the specifications.
+- `Process Sample` column:  records the number of the sample per request
+- `Target value` column:  gives us the target value on which we base the specifications.
 
 - `Tare` column for the weight of the container.
 
@@ -40,7 +50,10 @@ columns starting with `Measure` that has the values for you measurements.
 ### FUNCTION DESCRIPTION
 
 
-*"summary_stat"* function allow the user to visualize statistics numbers about a given request number of the industrial process:
+
+### summary_stat 
+
+It allows the user to visualize statistic numbers about a given request of the industrial process:
 
 - Process Median
 - Process "Cible"(Target)
@@ -52,27 +65,25 @@ columns starting with `Measure` that has the values for you measurements.
 
 ---
 
-*"R_bar_chart"* 
+### R_bar_chart
 
-This function will produce a Shewhart X-bar/R control chart. The Xbar-R control chart is the most commonly used.
+It produces an X-bar/R control chart. 
 
-Xbar allows you to plots each sample mean to see between-sample variation.
-Useful for identifying special cause changes to the process mean (X), for detecting shifts/trends.
-Control limits, related to +/- 3 standard deviations, are calculated using Rbar.
-Points within the control limits are in accordance with the process variation. Those outside the limits are special causes to be analysed
+It is useful to identify whether the process sample is close to the target value or not. Moreover it is possible to detect whether samples are out of control from a statistical point of view so if they are out of the range delimited by UCL and LCL.
 
 ---
 
-*"request_CL"*
+### request_CL
 
-Displays a histogram with process capability limits and text that show how much the process outputs meet a given set specifications.
+It displays a histogram with process capability limits and text showing how much the process outputs meet a given set specifications.
+
 This graph helps to monitor the capability of a particular parameter in the production process of a product.
 
 ---
 
-*"run_demo()"*
+### run_demo()
 
-Run a demo of the packages with all the functions
+Run the shiny application.
 
 ---
 ---
